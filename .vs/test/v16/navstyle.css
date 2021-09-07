@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 960px;
+    margin: 20px auto;
+    /* border:10px solid;
+    height: 600px; */
+}
+
+#header,
+#sidebar,
+#main-content,
+#footer{
+    padding: 20px;
+}
+
+#header{
+    height: 100px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+#content{
+    height: 300px;
+}
+
+#sidebar{
+  /*display: inline-block; welcome text hoppat ner så använder flot istället*/
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-right: 2%;
+    border-right: 1px dotted #333;
+}
+
+#main-content{
+    /*display: inline-block; welcome text hoppat ner så använder flot istället*/
+    float: right;
+    width: 77.5%;
+    height: 100%;
+}
+
+#sidebar-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 25px;/*luft */
+}
+
+#sidebar-nav ul li a{
+    text-decoration: none;/*a länkar Home,About, Contact under linje försvinner*/
+    display: block;
+    padding: 8px 16px;
+    color: black;
+}
+
+#sidebar-nav ul li a:hover{
+    background-color: rgb(105, 105, 107);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+#footer{
+    background-color: rgb(33, 33, 90);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+#main{
+margin-right: 2% ;
+border-right: 1px dotterd #333;
+}
+
+#main-content{
+    display: inline-block;
+    width: 77.5%;
+    height: 100%;
+}
+
+#footer{
+    background-color: rgb(33, 156, 243);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+}
+ 
+
+konstigt css
+
+ 
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 960px;
+    margin: 20px auto;
+    /* border:10px solid;
+    height: 600px; */
+}
+
+#header,
+#sidebar,
+#main-content,
+#footer{
+    padding: 20px;
+}
+
+#header{
+    height: 100px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+#content{
+    height: 300px;
+}
+
+#sidebar{
+  /*display: inline-block; welcome text hoppat ner så använder flot istället*/
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-right: 2%;
+    border-right: 1px dotted #333;
+}
+
+#main-content{
+    /*display: inline-block; welcome text hoppat ner så använder flot istället*/
+    float: right;
+    width: 77.5%;
+    height: 100%;
+}
+
+#sidebar-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 25px;/*luft */
+}
+
+#sidebar-nav ul li a{
+    text-decoration: none;/*a länkar Home,About, Contact under linje försvinner*/
+    display: block;
+    padding: 8px 16px;
+    color: black;
+}
+
+#sidebar-nav ul li a:visited{
+   
+    color: black;
+}
+
+#footer{
+    background-color: rgb(33, 33, 90);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+#main{
+margin-right: 2% ;
+border-right: 1px dotterd #333;
+}
+
+#main-content{
+    display: inline-block;
+    width: 77.5%;
+    height: 100%;
+}
+
+#footer{
+    background-color: rgb(33, 156, 243);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+}
+ 
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 960px;
+    margin: 20px auto;
+    /* border:10px solid;
+    height: 600px; */
+}
+
+#header,
+#sidebar,
+#main-content,
+#footer{
+    padding: 20px;
+}
+
+#header{
+    height: 100px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+#content{
+    height: 300px;
+}
+
+#sidebar{
+  /*display: inline-block; welcome text hoppat ner så använder flot istället*/
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-right: 2%;
+    border-right: 1px dotted #333;
+}
+
+#main-content{
+    /*display: inline-block; welcome text hoppat ner så använder flot istället*/
+    float: right;
+    width: 77.5%;
+    height: 100%;
+}
+
+#sidebar-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 25px;/*luft */
+}
+
+#sidebar-nav ul li a{
+    text-decoration: none;/*a länkar Home,About, Contact under linje försvinner*/
+    display: block;
+    padding: 8px 16px;
+    color: black;
+}
+   
+  /* #sidebar-nav ul li a:visited{  
+    color: red;
+}
+*/
+
+ #sidebar-nav ul li a:hover{
+     background-color: rgb(105, 105, 107);
+     color: white;/*den css hover kod activeras efter situation 
+     eller händelse*/
+ }
+
+  #main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 25px;/*luft */
+  }
+
+  #main-nav ul li a{
+    text-decoration: none;/*a länkar Home,About, Contact under linje försvinner*/
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    float:left; 
+    /*nav texter läggas horizontellt , row*/
+  }
+
+  #main-nav ul li a:hover{
+    background-color: rgb(105, 105, 107);
+    color: white;/*samma hover effect som sidebar-nav,
+    den css hover kod activeras efter situation 
+    eller händelse*/
+   
+}
+
+#footer{
+    background-color: rgb(33, 33, 90);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+}
+ 
